@@ -1,0 +1,49 @@
+{
+    "model_name": "VotingClassifier (Soft Voting)",
+    "algorithms_combined": [
+        "Logistic Regression",
+        "Decision Tree Classifier",
+        "Random Forest Classifier"
+    ],
+    "test_set_size": 154,
+    "accuracy": 0.7143,
+    "precision": 0.619,
+    "recall": 0.4815,
+    "f1_score": 0.5417,
+    "confusion_matrix": {
+        "tn": 84,
+        "fp": 16,
+        "fn": 28,
+        "tp": 26
+    },
+    "individual_metrics": {
+        "logistic_regression": {
+            "accuracy": 0.7078,
+            "precision": 0.6,
+            "recall": 0.5,
+            "f1_score": 0.5455
+        },
+        "decision_tree": {
+            "accuracy": 0.7987,
+            "precision": 0.7091,
+            "recall": 0.7222,
+            "f1_score": 0.7156
+        },
+        "random_forest": {
+            "accuracy": 0.7338,
+            "precision": 0.6585,
+            "recall": 0.5,
+            "f1_score": 0.5684
+        }
+    },
+    "feature_names": [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+    ]
+}
